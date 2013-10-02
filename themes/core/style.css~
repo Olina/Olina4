@@ -1,0 +1,154 @@
+/** 
+ * Description: Core theme for Olina
+ */
+
+@import url(../css/style.css);
+@import url(http://fonts.googleapis.com/css?family=Shojumaru);
+
+
+/**
+ * Structure
+ */
+html 
+{
+  overflow-y:scroll;
+}
+
+body 
+{
+  background-color:#008b95;
+  color:#333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 17px;
+}
+
+
+
+#header,
+#main,
+#footer 
+{
+margin:8px auto;
+padding:1em;
+background-color:#fff;
+border:1px solid #999;
+border-radius: 12px;
+} 
+
+#header
+{
+	width:800px;
+}
+
+#main,
+#footer 
+{
+	width:700px;
+}
+
+#main 
+{
+  min-height:20em;
+}
+
+#footer 
+{
+  font-size:0.9em;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+/**
+ * Fonts
+ */
+h1
+{ 
+font-family: 'Georgia', cursive;
+line-height:0;
+font-size:2.5em;
+padding-left:20px;
+color:#333;
+text-shadow:#ccc 4px -4px 4px;
+}
+
+h2,h3
+{
+  border-bottom:1px solid #dddddd;
+  color: #5d4c4c;
+} 
+
+
+/**
+ * Links
+ */
+a,
+a:visited 
+{
+  color:#6a6159;
+}
+
+
+/**
+ * User feedback message wrappers.
+ */
+.error, .alert, .warning, .notice, .success, .info { 
+padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice, .warning { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success       { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info          { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a, .warning a { color: #514721; }
+.success a         { color: #264409; }
+.info a            { color: #205791; }
+
+
+
+
+/**
+ * Login menu
+ */
+#login-menu{float:right;font-size:smaller;}
+#login-menu img.gravatar{vertical-align:middle;}
+#login-menu a{text-decoration:none;}
+#login-menu a:hover{text-decoration:underline;}
+
+
+
+/**
+ * Banner
+ */
+#banner {display:table;margin-bottom:10px;}
+
+.site-logo,
+.site-title,
+.site-slogan {display:table-cell;width:inherit;vertical-align:middle;text-align:left;}
+
+.site-logo {}
+.site-title,
+.site-slogan {font-family:monospace;line-height:0;padding-left:20px;color:#333;
+  text-shadow:#ccc 2px -2px 2px;}
+.site-title  {font-size:4em;font-weight:bold;}
+.site-slogan {font-size:1.5em;}
+
+.site-title a {text-decoration:none;color:inherit;}
+.site-title a:hover {text-decoration:none;color:inherit;}
+
+
+
+/**
+ * Forms
+ */
+input{font:inherit;}
+input[readonly]{color:#666;}
+label{font-size:smaller;}
+.validation-failed{border:2px solid red;}
+.validation-message{color:red;font-size:smaller;}
+.form-action-link{font-size:smaller;}
+
+ 
+ 
+ 
