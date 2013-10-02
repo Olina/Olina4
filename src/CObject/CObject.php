@@ -100,7 +100,7 @@ class CObject {
 	 *
 	 * @param $urlOrController string the relative url or the controller
 	 * @param $method string the method to use, $url is then the controller or empty for current
-	 * @param $arguments string the extra arguments to send to the method
+	 * @param $arguments string the extra arguments to send to the method 
 	 */
 	protected function CreateUrl($urlOrController=null, $method=null, $arguments=null) {
     return $this->request->CreateUrl($urlOrController, $method, $arguments);
