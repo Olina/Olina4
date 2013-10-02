@@ -2,7 +2,7 @@
 /**
  * Holding a instance of COlina to enable use of $this in subclasses and provide some helpers.
  *
- * @package LydiaCore
+ * @package OlinaCore
  */
 class CObject {
 
